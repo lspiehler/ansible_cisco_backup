@@ -1,0 +1,6 @@
+---
+  - name: Backup Cisco Equipment
+    hosts: snow_backup
+    gather_facts: no
+    roles:
+      - role: ansible-network-backup

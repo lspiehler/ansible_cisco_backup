@@ -1,0 +1,3 @@
+- name: ansible-network-backup
+  src: https://github.com/ciscops/ansible-network-backup.git
+  version: origin/master
