@@ -37,6 +37,7 @@ EOF
 ```
 ansible-galaxy install -r roles/requirements.yml
 ansible-galaxy collection install cisco.ios
+ansible-galaxy collection install ansible.netcommon
 pip3 install netaddr paramiko
 ```
 
