@@ -29,7 +29,7 @@ EOF
 ```
 cat << EOF > hosts.ini
 [all]
-Switch ansible_host=192.168.1.6 ansible_network_os=ios
+Switch ansible_host=192.168.1.6 ansible_network_os=ios ansible_connection=ansible.netcommon.network_cli ansible_become=yes
 EOF
 ```
 
